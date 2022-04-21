@@ -1,4 +1,5 @@
-                                          # 7-Segment Display Interfacing with Atmega328 #
+# 7-Segment Display Interfacing with Atmega328 #
+
 ## Abstract
 - Seven-segment displays are electronic display devices used as an easy way to display decimal numerals and an alterative to the more complex dot-matrix displays.
 - The LDS-C303RI, a common seven-segment display, will be examined. Common anode vs. common cathode will be outlined.

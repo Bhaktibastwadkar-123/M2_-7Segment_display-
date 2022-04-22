@@ -13,6 +13,5 @@
  - The common anode and common cathode types are available in a 7-segment display. 
  - Depending on which type is used, the control signal required to light up a segment in  the display changes.
  - Common anode requires a LOW signal whereas common cathode requires a HIGH signal to light up a segment.
- 
  ![led display](https://user-images.githubusercontent.com/101447131/164503048-25fe51e0-c664-4582-b301-e9f64cd382c3.jpg)
 

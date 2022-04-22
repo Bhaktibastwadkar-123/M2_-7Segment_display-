@@ -1,4 +1,8 @@
-
+# Required Components:
+-  Ic = Atmega328
+-  Resister = 100 ohm
+-  Display = 7 segment
+- 
 ## High Level Requirements:
 
 | ID   | Description                                              | Category  | Status      |

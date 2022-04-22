@@ -24,6 +24,19 @@
 
   ![cc](https://user-images.githubusercontent.com/101447131/164504410-fc7b9787-7796-4bc6-badd-188e545654c5.jpg)
   
+  # 7- Segment Display Pinout Diagram Details
+ - This section lists the description of all pins for both common anode and common cathode types.
+     ![pin diagram](https://user-images.githubusercontent.com/101447131/164520155-a65f1c6e-a303-4f41-8122-74d2128f7cb1.jpg)
+     
+   A simple truth table can be used to show how to display each number and letter. This can be
+   seen in Table 1. For example, it can be seen that if a 0 is wanted to be displayed the a-f LED
+   segments need to be turned on while the g segment is off. Note that B and D are displayed as b
+   and d; this is done to obtain a unique, unambiguous shape for each letter. Otherwise, a capital D
+   would look identical to a 0 and a capital B would look identical to an 8.
+   
+   ![inpo](https://user-images.githubusercontent.com/101447131/164529057-70858223-bccb-476f-b0b1-06bff8d8c7fb.png)
+
+  
   # Display Driver
   Controlling a seven-segment display will require eight pins for most displays and nine pins if it has a decimal point. This adds a lot of wiring to the circuit;       however the use of a display driver can simplify this by reducing the number of pins required to four. A display driver is a simple logic based device that is passed   a 4-bit binary input which is decoded and translated into the correct pin values for the display, see Appendix for chip schematic. So if we wanted the display
   to show a C representing the number 12 we would pass it the 4-bit representation 1100. It must be kept in mind however that not all drivers are capable of displaying   the letters A-F. 
